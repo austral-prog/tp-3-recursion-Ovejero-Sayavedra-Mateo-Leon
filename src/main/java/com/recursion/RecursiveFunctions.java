@@ -26,6 +26,7 @@ public class RecursiveFunctions {
             return -1;
         }
         if (Objects.equals(list.get(index),target)) {
+            return index;
         }
 
         return recursiveIndexOfByIndex(list,target,index + 1);
